@@ -1,8 +1,20 @@
-rule-providers:
-  icloud:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-    path: ./ruleset/icloud.yaml
-    interval: 86400
-RULE-SET,icloud,DIRECT
+# OneDrive
+PROCESS-NAME,OneDrive
+PROCESS-NAME,OneDriveUpdater
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
+#DOMAIN-SUFFIX,aria.microsoft.com
