@@ -1,9 +1,5 @@
 # 内容：中国媒体列表
-
-
 # NAME: Tencent
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2022-09-13 02:33:50
 # DOMAIN-SUFFIX: 474
 # IP-CIDR: 11
@@ -89,14 +85,10 @@ DOMAIN-SUFFIX,dnsv4.com
 DOMAIN-SUFFIX,dnsv5.com
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dothework.cn
-DOMAIN-SUFFIX,douyu.com
-DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuba.cn
 DOMAIN-SUFFIX,douyucdn.cn
 DOMAIN-SUFFIX,douyucdn2.cn
 DOMAIN-SUFFIX,douyupcdn.cn
-DOMAIN-SUFFIX,douyuscdn.com
-DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,doyonoc.com
 DOMAIN-SUFFIX,ectencent.cn
 DOMAIN-SUFFIX,ectencent.com.cn
@@ -252,9 +244,7 @@ DOMAIN-SUFFIX,qidian.cn
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,qidianmm.com
 DOMAIN-SUFFIX,qlippie.com
-DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qmail.com
-DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qpimg.cn
 DOMAIN-SUFFIX,qplus.com
 DOMAIN-SUFFIX,qq.com
@@ -282,7 +272,6 @@ DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,rtxonline.com
 DOMAIN-SUFFIX,safejmp.com
 DOMAIN-SUFFIX,serverlesscloud.cn
-DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,shuame.com
 DOMAIN-SUFFIX,shurl.cn
 DOMAIN-SUFFIX,sixjoy.com
@@ -395,7 +384,6 @@ DOMAIN-SUFFIX,tencentwepark.com
 DOMAIN-SUFFIX,tencentyun.com
 DOMAIN-SUFFIX,tendbcluster.com
 DOMAIN-SUFFIX,tendis.net
-DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,testjrzk.net.cn
 DOMAIN-SUFFIX,testmeet.cn
 DOMAIN-SUFFIX,testwaf.com
@@ -437,17 +425,11 @@ DOMAIN-SUFFIX,voovlive.com
 DOMAIN-SUFFIX,vxo7tu.com
 DOMAIN-SUFFIX,wanjiashow.com
 DOMAIN-SUFFIX,webnovel.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,wechatlegal.net
-DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,wechatpay.com.hk
 DOMAIN-SUFFIX,wegame.com
 DOMAIN-SUFFIX,wegame.com.cn
 DOMAIN-SUFFIX,weiaixiaoshuo.com
 DOMAIN-SUFFIX,weishi.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,weixinbridge.com
-DOMAIN-SUFFIX,weixinsxy.com
 DOMAIN-SUFFIX,weiyun.com
 DOMAIN-SUFFIX,wesingapp.com
 DOMAIN-SUFFIX,weui.io
@@ -482,17 +464,8 @@ DOMAIN-SUFFIX,ywurl.cn
 DOMAIN-SUFFIX,ywurl.com
 DOMAIN-SUFFIX,yximg.cn
 DOMAIN-SUFFIX,zjump.cn
-IP-CIDR,101.32.104.4/32,no-resolve
-IP-CIDR,101.32.104.41/32,no-resolve
-IP-CIDR,101.32.104.56/32,no-resolve
-IP-CIDR,101.32.118.25/32,no-resolve
-IP-CIDR,101.32.133.16/32,no-resolve
-IP-CIDR,101.32.133.209/32,no-resolve
-IP-CIDR,101.32.133.53/32,no-resolve
 IP-CIDR,103.238.16.0/23,no-resolve
 IP-CIDR,103.7.28.0/22,no-resolve
-IP-CIDR,129.226.107.244/32,no-resolve
-IP-CIDR,129.226.3.47/32,no-resolve
 # 内容：Sohu Sogo
 # 数量：10条
 DOMAIN-SUFFIX,go2map.com
@@ -506,9 +479,7 @@ DOMAIN-SUFFIX,sohuno.com
 DOMAIN-SUFFIX,sohurdc.com
 DOMAIN-SUFFIX,v-56.com
 # 内容：Letv 乐视
-# 数量：1条
 DOMAIN-SUFFIX,api.mob.app.letv.com
-
 # Bilibili 哔哩哔哩
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
@@ -530,8 +501,6 @@ DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
-DOMAIN-SUFFIX,smtcdns.net
-
 # Iqiyi 爱奇艺
 USER-AGENT,QYPlayer*
 USER-AGENT,iQIYI*
@@ -550,18 +519,13 @@ IP-CIDR,118.26.32.0/23,no-resolve
 IP-CIDR,118.26.120.0/24,no-resolve
 IP-CIDR,223.119.62.225/28,no-resolve
 URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
-
 # Letv 乐视
-DOMAIN-SUFFIX,api.mob.app.letv.com
-
 # MOO
 USER-AGENT,MOO*
 USER-AGENT,TencentMidasConnect*
-
 # TencentVideo 腾讯视频
 DOMAIN-SUFFIX,v.smtcdns.com
 DOMAIN-SUFFIX,vv.video.qq.com
-
 # Youku 优酷
 DOMAIN-SUFFIX,youku.com
 IP-CIDR,106.11.0.0/16,no-resolve
