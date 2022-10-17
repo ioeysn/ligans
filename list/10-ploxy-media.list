@@ -202,6 +202,8 @@ USER-AGENT,JOOX*
 USER-AGENT,WeMusic*
 DOMAIN-KEYWORD,jooxweb-api
 DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,javlibrary.com
+DOMAIN-SUFFIX,jable.tv
 
 # Japonx
 DOMAIN-KEYWORD,japonx
