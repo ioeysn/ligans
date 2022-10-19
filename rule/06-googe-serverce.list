@@ -1,3 +1,4 @@
+#谷歌商店服务   需要代理
 DOMAIN-SUFFIX,services.googleapis.cn
 IP-CIDR,120.232.181.162/32,no-resolve
 IP-CIDR,120.241.147.226/32,no-resolve
