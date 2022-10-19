@@ -1,0 +1,77 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;ioeysn狠狠的偷
+
+;去广告：支持
+;自动测速：支持
+;微软分流：支持
+;苹果分流：支持
+;增强中国IP段：支持
+;增强国外GFW：支持
+
+ruleset=🍃 🐑🐑🐑🐑,https://raw.githubusercontent.com/ioeysn/ligans/main/haha.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/01-local.list
+ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/02-ad.list
+;ruleset=🍃 应用净化,https://raw.githubusercontent.com/ioeysn/ligans/main/list/04paogramad.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/04-google-fcm.list
+ruleset=📢 谷歌play下载,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/05-googleplay-down.list
+ruleset=📢 谷歌服务,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/06-googe-serverce.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/07-googlecn.list
+ruleset=📢 谷歌域名,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/08-google.list
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/09-apple.list
+ruleset=📲 电报信息,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/10-telegram.list
+ruleset=📹 油管视频,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/10-youtube.list
+ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/11-netflix.list
+ruleset=🎶 tiktok,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/11-tiktok.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/12-app.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/13-game.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/14-cn-media.list
+ruleset=🐟 国外媒体,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/15-ploxy-media.list
+ruleset=🔰 上网点这里,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/16-ploxy.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/17-china-ip.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/18-direct.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/19-China-CompanyIp.list
+ruleset=🎯 国内网络,https://raw.githubusercontent.com/ioeysn/ligans/main/rule/20-download.list
+;ruleset=🎯 国内网络,[]GEOIP,LAN
+ruleset=🎯 国内网络,[]GEOIP,CN
+ruleset=🐟 其他网站,[]FINAL
+
+custom_proxy_group=🔰 上网点这里`select`[]🚀港台坡日🚀`[]💣💣💣💣💣💣💣💣`[]🎯 香港均衡`[]🐟 美国均衡`[]🚀 师城均衡`[]🔰 日本均衡`[]🔮 台湾均衡`[]🔮 负载均衡`[]🚀 手动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]♻️ 自动选择`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]DIRECT
+custom_proxy_group=🔮 负载均衡`select`[]🎯 香港均衡`[]🐟 美国均衡`[]🚀 师城均衡`[]🔰 日本均衡`[]🔮 台湾均衡
+custom_proxy_group=🚀港台坡日🚀`url-test`(港|HK|Hong Kong|台|新北|彰化|TW|Taiwan|新|新加坡|坡|狮城|SG|Singapore|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=💣💣💣💣💣💣💣💣`url-test`(CL|智利|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|俄罗斯|印度|CA|Canada|United Kingdom|DE|Germany|NL|Netherlands|IT|Italy|ES|Spain|Turkey|AU|Australia|AR|Argentina|BR|Brazil|CL|Chile|KR|Korea|IN|India|IL|Israel|TH|Thailand|VN|Vietnam|AE|Dubai|ZA|Johannesburg|加拿大|韩国|PH|菲律宾|AU|澳大利亚|德国|CH|瑞士|英国|PL|波兰|IT|意大利|土耳其|MD|摩尔多瓦|UZ|乌兹别克斯坦|AR|阿根廷|BR|巴西|MX|墨西哥)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🍃 🐑🐑🐑🐑`select`[]🔮 负载均衡`[]🎯 香港均衡`[]🐟 美国均衡`[]🚀 师城均衡`[]🔰 日本均衡`[]🔮 台湾均衡`[]🚀 手动选择
+custom_proxy_group=🚀 手动选择`select`.*
+custom_proxy_group=🎥 奈飞视频`select`[]🇸🇬 新加坡节点`[]🚀 师城均衡`[]🎯 香港均衡`[]🔮 台湾均衡`[]🎥 奈飞节点`[]🔰 上网点这里`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择
+custom_proxy_group=🔑 专用线路`url-test`(IPLC|IEPL|iplc|iepl|专线|游戏|pro)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🎯 香港均衡`load-balance`(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🐟 美国均衡`load-balance`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🚀 师城均衡`load-balance`(新|新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🔰 日本均衡`load-balance`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🔮 台湾均衡`load-balance`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🇸🇬 新加坡节点`url-test`(新|新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🐟 国外媒体`select`[]🔰 上网点这里`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+;custom_proxy_group=🌏 出海媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🔑 专用线路`[]🚀 手动选择
+custom_proxy_group=🎶 tiktok`select`[]🔰 上网点这里`[]♻️ 自动选择`[]🇸🇬 新加坡节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+custom_proxy_group=📲 电报信息`select`[]🔰 上网点这里`[]♻️ 自动选择`[]🇸🇬 新加坡节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+custom_proxy_group=📹 油管视频`select`[]🔰 上网点这里`[]♻️ 自动选择`[]🇸🇬 新加坡节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+custom_proxy_group=📢 谷歌服务`select`[]🔰 上网点这里`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+custom_proxy_group=📢 谷歌域名`select`[]🔰 上网点这里`[]♻️ 自动选择`[]🇸🇬 新加坡节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+custom_proxy_group=📢 谷歌play下载`select`[]🔰 上网点这里`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择`[]DIRECT
+custom_proxy_group=🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media|原生)
+custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`120,,50
+custom_proxy_group=🎯 国内网络`select`[]DIRECT`[]🔰 上网点这里`[]♻️ 自动选择`[]🚀 手动选择`[]🔑 专用线路
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🔑 专用线路`[]🚀 手动选择
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🔰 上网点这里`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🔰 上网点这里`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🔑 专用线路`[]🚀 手动选择
+custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
+;custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 其他网站`select`[]🔰 上网点这里`[]♻️ 自动选择`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择
+
+enable_rule_generator=true
+overwrite_original_rules=true
